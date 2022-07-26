@@ -1,10 +1,38 @@
 body {
     background: #2C3639;
-    color: #DCD7C9
+    color: #DCD7C9;
 }
+
 #progress_label {
     background-color: #A27B5C;
     text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+h3 {
+    color: #DCD7C9;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 .ul-projects {
@@ -13,9 +41,25 @@ body {
 
 .ul-projects li{
     display: inline-block;
-    color: #DCD7C9
+    color: #DCD7C9;
+    margin: 20px;
+    text-align:  justify;
 }
 
 .project-pics {
-    
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container-project-pics {
+    width: 250px;
+    height: 450px;
+    background-color: #A27B5C;
+    padding: 10px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.container-project-pics:hover {
+  transform: scale(1.15);
 }
